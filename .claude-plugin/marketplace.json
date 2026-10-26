@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "review-intel",
+  "description": "Review Intel plugins for evidence-backed public app-review analysis.",
+  "owner": {
+    "name": "Dasha Antonova"
+  },
+  "plugins": [
+    {
+      "name": "review-intel-pro",
+      "source": "./plugins/review-intel-pro",
+      "description": "Analyze App Store and Google Play reviews with Review Intel Pro's signed-in review retrieval connector.",
+      "author": {
+        "name": "Dasha Antonova",
+        "url": "https://www.willthiseverwork.com/#about"
+      },
+      "homepage": "https://www.willthiseverwork.com/review-intel/",
+      "license": "Apache-2.0",
+      "category": "productivity"
+    }
+  ]
+}
