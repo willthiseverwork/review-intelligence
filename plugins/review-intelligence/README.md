@@ -12,12 +12,14 @@ The analysis keeps review evidence, inference, and business outcomes separate. I
 
 ## Install from GitHub
 
-Add the DoubleDash marketplace and install the plugin:
+Add the Will This Ever Work marketplace and install the plugin:
 
 ```bash
-codex plugin marketplace add angrysushi11/review-intelligence --ref main
+codex plugin marketplace add willthiseverwork/review-intelligence --ref main
 codex plugin add review-intelligence@doubledash
 ```
+
+The marketplace keeps its existing `doubledash` ID for compatibility; its publisher is Will This Ever Work.
 
 Start a new task after installation so the plugin's skill and MCP connection are loaded.
 

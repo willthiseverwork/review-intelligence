@@ -17,19 +17,21 @@ Choose the installation scope when Claude Code asks. Start a new Claude Code ses
 
 ## Claude.ai and Claude Desktop
 
-The remote connector can also be added directly to Claude. Anthropic's current instructions for Pro and Max users are:
+Add the hosted service as a custom connector using [Anthropic's current instructions](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp):
 
-1. Open **Settings > Connectors**.
-2. In **Connectors**, choose **Add custom connector**.
-3. Add this remote MCP server URL and choose **Add**:
+1. Open **Customize > Connectors**, then **+ Add > Add custom connector**.
+2. Name it **Review Intel Pro** and enter this remote MCP URL:
 
    ```text
    https://www.willthiseverwork.com/review-intel/mcp
    ```
 
-4. In a chat, open **Search and tools**, choose the connector, then select **Connect** to complete the Review Intel email-code sign-in.
+3. Continue through the detected authentication settings. Select **Sign in now**, retain the detected OAuth client settings, and add the connector. Complete Review Intel's email-code sign-in when prompted.
+4. In a conversation, use **+ > Connectors** to enable it.
 
-On Team and Enterprise, an Owner or Primary Owner adds it from **Settings > Connectors > Organization connectors** first; each user then connects their own Review Intel account. Remote custom connectors require a supported paid Claude plan. Follow the same **Settings > Connectors** route in Claude Desktop; remote servers are not configured through `claude_desktop_config.json`.
+For Team and Enterprise, an authorized administrator first adds it under **Organization settings > Connectors**, using **Add > Custom > Web**. Members then find it under **Customize > Connectors** and connect individually.
+
+Anthropic supports custom connectors on Free, Pro, Max, Team and Enterprise; Free allows one. Review Intel Pro access is separately controlled by the Review Intel service. These remote connectors work on Claude web and Desktop.
 
 ## Use it
 
@@ -41,7 +43,7 @@ You can instead upload or paste a Markdown review export and ask for a first rea
 
 ## Links
 
-- Product: <https://www.willthiseverwork.com/review-intel/>
+- Product: <https://www.willthiseverwork.com/review-intel/?utm_source=github&utm_medium=referral&utm_content=pro_plugin_readme>
 - Privacy: <https://www.willthiseverwork.com/review-intel/privacy/>
 - Terms: <https://www.willthiseverwork.com/review-intel/terms/>
 - Support: <https://www.willthiseverwork.com/review-intel/support/>

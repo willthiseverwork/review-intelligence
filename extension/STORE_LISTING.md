@@ -72,7 +72,7 @@ Use the hosted, branded policy page:
 
 The same policy remains reviewable in source at:
 
-`https://github.com/angrysushi11/review-intelligence/blob/main/extension/PRIVACY.md`
+`https://github.com/willthiseverwork/review-intelligence/blob/main/extension/PRIVACY.md`
 
 ### Contact email
 

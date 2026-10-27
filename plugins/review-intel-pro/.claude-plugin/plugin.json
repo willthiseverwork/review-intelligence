@@ -1,14 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "review-intel-pro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Analyze public app reviews with the Review Intel method and a signed-in connector that can retrieve reviews from App Store or Google Play URLs.",
   "author": {
-    "name": "Dasha Antonova",
-    "url": "https://www.willthiseverwork.com/#about"
+    "name": "Will This Ever Work",
+    "url": "https://www.willthiseverwork.com/"
   },
   "homepage": "https://www.willthiseverwork.com/review-intel/",
-  "repository": "https://github.com/angrysushi11/review-intelligence",
+  "repository": "https://github.com/willthiseverwork/review-intelligence",
   "license": "Apache-2.0",
   "keywords": [
     "app reviews",
@@ -24,5 +24,6 @@
       "termsOfService": "https://www.willthiseverwork.com/review-intel/terms/",
       "support": "https://www.willthiseverwork.com/review-intel/support/"
     }
-  }
+  },
+  "displayName": "Review Intel Pro"
 }

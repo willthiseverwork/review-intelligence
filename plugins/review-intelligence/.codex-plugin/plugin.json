@@ -1,13 +1,13 @@
 {
   "name": "review-intelligence",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Analyze public app reviews to see what people love, hate, and wish worked differently before deciding what to build, improve, test, or say.",
   "author": {
-    "name": "Dasha Antonova",
-    "url": "https://www.willthiseverwork.com/#about"
+    "name": "Will This Ever Work",
+    "url": "https://www.willthiseverwork.com/"
   },
   "homepage": "https://appreviewintel.com/",
-  "repository": "https://github.com/angrysushi11/review-intelligence",
+  "repository": "https://github.com/willthiseverwork/review-intelligence",
   "keywords": [
     "app reviews",
     "review analysis",
@@ -21,7 +21,7 @@
     "displayName": "Review Intelligence",
     "shortDescription": "See what app users want",
     "longDescription": "Use Review Intelligence when you need to see what people love, hate, and wish worked differently in products they already use. Give it an App Store or Google Play URL, or upload a review export. It brings public written reviews together for evidence-backed analysis of product friction, unmet needs, customer language, pricing, growth, and ASO. Findings point to decisions worth researching or testing; they do not prove demand, revenue, or causality.",
-    "developerName": "DoubleDash by Dasha Antonova",
+    "developerName": "Will This Ever Work",
     "category": "Productivity",
     "capabilities": [
       "Read"

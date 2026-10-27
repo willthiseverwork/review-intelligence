@@ -1,6 +1,6 @@
 # Review Intelligence
 
-Review Intelligence is the plugin and skill that analyze public App Store and Google Play reviews as evidence-backed product, pricing, growth and ASO insight. It runs in Codex and ChatGPT and connects to the hosted Review Intel service.
+Review Intelligence is the plugin and skill that analyze public App Store and Google Play reviews as evidence-backed product, pricing, growth and ASO insight. This repository includes packages for Codex, ChatGPT and Claude Code that connect to the hosted Review Intel service.
 
 ## What is here
 
@@ -13,11 +13,22 @@ The Review Intel service itself (the review retrieval and the MCP server) is hos
 ## Install the Codex plugin
 
 ```bash
-codex plugin marketplace add angrysushi11/review-intelligence --ref main
+codex plugin marketplace add willthiseverwork/review-intelligence --ref main
 codex plugin add review-intelligence@doubledash
 ```
 
+The marketplace keeps its existing `doubledash` ID for compatibility; its publisher is Will This Ever Work.
+
 Start a new task after installation so the skill and its connection load. The first time the plugin calls the service you are asked to sign in with an email code.
+
+## Install Review Intel Pro in Claude Code
+
+```text
+/plugin marketplace add willthiseverwork/review-intelligence
+/plugin install review-intel-pro@review-intel
+```
+
+See the [Review Intel Pro README](./plugins/review-intel-pro/README.md) for sign-in and claude.ai custom connector setup. The [free Claude marketplace](https://github.com/willthiseverwork/claude-plugins) includes App Review Intel for pasted or uploaded reviews.
 
 ## Use it
 

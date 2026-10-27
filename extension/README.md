@@ -25,4 +25,4 @@ Version 0.1.1 is already published in the Chrome Web Store under the former Revi
 - The hosted Review Intel tool has its own request and analytics boundary; see the [extension privacy disclosure](./PRIVACY.md) and the repository's [data and privacy boundary](../README.md#data-and-privacy-boundary).
 
 - Live tool: <https://www.willthiseverwork.com/review-intel/>
-- Source repository: <https://github.com/angrysushi11/review-intelligence>
+- Source repository: <https://github.com/willthiseverwork/review-intelligence>

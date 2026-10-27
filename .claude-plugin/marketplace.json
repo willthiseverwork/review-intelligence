@@ -9,6 +9,7 @@
   "plugins": [
     {
       "name": "review-intel-pro",
+      "displayName": "Review Intel Pro",
       "source": "./plugins/review-intel-pro",
       "description": "Analyze App Store and Google Play reviews with Review Intel Pro's signed-in review retrieval connector.",
       "author": {
