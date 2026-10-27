@@ -9,7 +9,7 @@ The connector is read-only. Its Pro access is decided by the hosted Review Intel
 In a Claude Code session, add this marketplace and then install the plugin:
 
 ```text
-/plugin marketplace add angrysushi11/review-intelligence
+/plugin marketplace add willthiseverwork/review-intelligence
 /plugin install review-intel-pro@review-intel
 ```
 

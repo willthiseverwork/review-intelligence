@@ -3,7 +3,8 @@
   "name": "review-intel",
   "description": "Review Intel plugins for evidence-backed public app-review analysis.",
   "owner": {
-    "name": "Dasha Antonova"
+    "name": "Will This Ever Work",
+    "url": "https://www.willthiseverwork.com/"
   },
   "plugins": [
     {
@@ -11,8 +12,8 @@
       "source": "./plugins/review-intel-pro",
       "description": "Analyze App Store and Google Play reviews with Review Intel Pro's signed-in review retrieval connector.",
       "author": {
-        "name": "Dasha Antonova",
-        "url": "https://www.willthiseverwork.com/#about"
+        "name": "Will This Ever Work",
+        "url": "https://www.willthiseverwork.com/"
       },
       "homepage": "https://www.willthiseverwork.com/review-intel/",
       "license": "Apache-2.0",
